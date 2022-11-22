@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Open Weather API</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <input id="userInput" type="text" placeholder="">
+            <button id="btnSendUserInput">Check Weather</button>
+        </article>
+        <section id="tableForWeatherApp">
+            <h1 id="city"></h1>
+            <p id="country"></p>
+            <div id="iconAndTemp">
+                <img src="" alt="" id="icon">
+                <p id="temperatur"></p>
+            </div>
+            <p id="description"></p>
+            <table>
+                <tr>
+                    <td class="tdLeft">Local Time</td>
+                    <td id="localTime" class="tdRight"></td>
+                </tr>
+                <tr>
+                    <td class="tdLeft">WindSpeed</td>
+                    <td id="windSpeed" class="tdRight"></td>
+                </tr>
+                <tr>
+                    <td class="tdLeft">Cloudiness</td>
+                    <td id="cloudiness" class="tdRight"></td>
+                </tr>
+                <tr>
+                    <td class="tdLeft">Pressure</td>
+                    <td id="pressure" class="tdRight"></td>
+                </tr>
+                <tr>
+                    <td class="tdLeft">Humidity</td>
+                    <td id="humidity" class="tdRight"></td>
+                </tr>
+                <tr>
+                    <td class="tdLeft">Sunrise</td>
+                    <td id="sunrise" class="tdRight"></td>
+                </tr>
+                <tr>
+                    <td class="tdLeft">Sunset</td>
+                    <td id="sunset" class="tdRight"></td>
+                </tr>
+                <tr>
+                    <td class="tdLeft">Geo Coords</td>
+                    <td id="geoCoords" class="tdRight"></td>
+                </tr>
+            </table>
+        </section>
+        <footer>
+            <p>Weather App by Steffi</p>
+        </footer>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
